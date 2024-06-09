@@ -1,0 +1,50 @@
+# Vault katana (stm32) board configuration
+
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if BOARD_VAULT_KATANA
+
+config BOARD
+    default "vault_katana_stm32"
+
+config ZMK_KEYBOARD_NAME
+    default "Vault35 Universal"
+
+config ZMK_USB
+    default y
+
+config ZMK_KSCAN_MATRIX_POLLING
+    default y
+
+if ZMK_DISPLAY
+
+config I2C
+    default y
+
+config SSD1306
+    default n
+
+config SSD1306_REVERSE_MODE
+    default n
+
+endif # ZMK_DISPLAY
+
+if LVGL
+
+config LV_Z_VDB_SIZE
+    default 64
+
+config LV_Z_DPI
+    default 148
+
+config LV_Z_BITS_PER_PIXEL
+    default 1
+
+choice LV_COLOR_DEPTH
+    default LV_COLOR_DEPTH_1
+endchoice
+
+endif # LVGL
+
+endif # BOARD_LE_CHIFFRE_STM32
