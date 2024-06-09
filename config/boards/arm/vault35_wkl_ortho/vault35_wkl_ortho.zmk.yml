@@ -1,0 +1,11 @@
+file_format: "1"
+id: vault35_wkl_ortho
+name: Vault35 WKL Ortho
+type: board
+arch: arm
+features:
+  - keys
+  - encoders
+outputs:
+  - usb
+url: https://github.com/

@@ -1,0 +1,20 @@
+# Vault35 WKL Ortho (stm32) board configuration
+
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if BOARD_VAULT35_WKL_ORTHO
+
+config BOARD
+    default "vault35_wkl_ortho"
+
+config ZMK_KEYBOARD_NAME
+    default "Vault35 WKL Ortho"
+
+config ZMK_USB
+    default y
+
+config ZMK_KSCAN_MATRIX_POLLING
+    default y
+
+endif # BOARD_LE_CHIFFRE_STM32
