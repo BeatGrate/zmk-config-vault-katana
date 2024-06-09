@@ -20,7 +20,6 @@
         zephyr,console = &cdc_acm_uart;
         zmk,kscan = &kscan;
         zmk,matrix_transform = &transform;
-        zephyr,display = &oled;
         /* TODO: Enable once we support the IC for underglow
         zmk,underglow = &led_strip;
          */
