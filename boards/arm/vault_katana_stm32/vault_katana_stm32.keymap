@@ -193,9 +193,9 @@ combo_##NAME { \
             label = "APT";
 
             bindings = <
-                &kp V        &kp W        &kp F        &kp P        &kp B         &none        &kp J        &kp L        &kp U        &kp Y        &hr RCTRL O
-                &hl LCTRL R  &hl LALT S  &hl LGUI T   &hl LSHFT H    &hl RALT K      &none     &hr RALT X   &hr RSHFT N  &hr RGUI A   &hr LALT I   &hr RCTRL O
-                &my_lt NUM SQT &kp C          &kp G          &kp D          &my_lt NAV SPC &kp C_MUTE     &my_lt SYM E   &kp M          &comsem        &dotcol        &my_lt FUN TAB
+                &kp V        &kp W        &kp F        &kp P        &none         &none        &none        &kp L        &kp U        &kp Y        &hr RCTRL O
+                &hl LCTRL R  &hl LALT S  &hl LGUI T   &hl LSHFT H    &kp B      &none     &kp J   &hr RSHFT N  &hr RGUI A   &hr LALT I   &hr RCTRL O
+                &my_lt NUM SQT &kp C          &kp G          &kp D          &hl RALT K &kp C_MUTE     &hr RALT X   &kp M          &comsem        &dotcol        &my_lt FUN TAB
 		&kp F14					&my_lt NUM SQT  &my_lt NAV SPC &my_lt SYM E &my_lt FUN TAB					&kp ESC
             >;
         };
