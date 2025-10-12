@@ -1,12 +1,12 @@
-# Vault katana (stm32) board configuration
+# Vault wklortho (stm32) board configuration
 
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if BOARD_VAULT_KATANA
+if BOARD_VAULT_wklortho
 
 config BOARD
-    default "vault_katana_stm32"
+    default "vault_wklortho_stm32"
 
 config ZMK_KEYBOARD_NAME
     default "Vault35 Universal"

@@ -17,4 +17,4 @@
 #     artifact-name: corne_left_with_logging
 #
 ---
-board: [ "vault_katana_stm32" ]
+board: [ "vault_wklortho_stm32" ]

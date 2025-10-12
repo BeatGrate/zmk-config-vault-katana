@@ -11,8 +11,8 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
-    model = "Vault Katana (stm32)";
-    compatible = "jlw,vault_katana_stm32", "st,stm32f072";
+    model = "Vault wklortho (stm32)";
+    compatible = "jlw,vault_wklortho_stm32", "st,stm32f072";
 
     chosen {
         zephyr,sram = &sram0;

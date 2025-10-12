@@ -1,5 +1,5 @@
 file_format: "1"
-id: vault_katana_stm32
+id: vault_wklortho_stm32
 name: Vault35 Universal
 type: board
 arch: arm

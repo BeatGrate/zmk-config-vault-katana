@@ -3,6 +3,6 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-config BOARD_VAULT_KATANA
-    bool "Vault Katana (stm32)"
+config BOARD_VAULT_WKLORTHO
+    bool "Vault WKL Ortho (stm32)"
     depends on SOC_STM32F072XB
